@@ -1,1 +1,5 @@
 # Heart-Disease-Supervised-Machine-Learning-Predictive-Model
+Created a heart disease classification predictive model to determine whether a person has heart disease. Achieved 85% accuracy using Logistic Regression Algorithm and 82% accuracy using the Decision Tree Classifier Algorithm.
+
+## The flow of the case study is as below:
+a) Defined the problem statement b) Read the data in python c) Identified the Target variable d) Observed at the distribution of Target variable e) Basic Data exploration f) Rejected useless columns g) Visual Exploratory Data Analysis for data distribution (Histogram and Barcharts) h) Feature Selection based on data distribution i) Outlier treatment is done. j) No Missing Values treatment is Needed k) Visual correlation analysis l) Statistical correlation analysis (Feature Selection) m) Converting data to numeric for ML by get_dummies and replace function. (As the columns were numeric, there was need to convert the variables into numeric datatype) n) Sampling and K-fold cross validation o) Tried multiple classification algorithms p) Selected the best Model q) Deployed the best model in production
